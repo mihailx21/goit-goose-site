@@ -1,0 +1,184 @@
+html, body{
+    margin: 0;
+    height: 100%;
+    font-family: 'Montserrat', sans-serif;
+}
+/* first page */
+.main-page{
+    background: linear-gradient(270deg, #A5DEFF 0%, #FFFFFF 100%);
+}
+
+.main-page-text-container{
+    background: #FFFFFF;
+    border-radius: 40px;
+    padding: 60px;
+}
+.main-page-button{
+    padding: 12px 24px;
+    background-color: #FF6B0A;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 8px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    cursor: pointer;
+}
+.wrapper{
+    width: 1170px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    margin-top: 32px;
+    margin-bottom: 60px;
+}
+.main-page-description{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #1B1D1F;
+    margin: 0 0 60px 0;
+}
+
+.main-page-title{
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 72px;
+    color: #1B1D1F;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.main-page-text{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #1B1D1F;
+    margin-top: 24px;
+    margin-bottom: 32px;
+}
+/* second page/goose facts */
+.goose-facts{
+    padding-top: 48px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+.tryzub{
+    margin-bottom: 24px;
+}
+
+.goose-facts-title{
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 72px;
+    color: #1B1D1F;
+    margin-top: 0px;
+    margin-bottom: 32px;
+}
+.goose-facts-description{
+    width: 772px;
+    margin: auto;
+    margin-bottom: 24px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #1B1D1F;
+}
+.goose-fact-item-title{
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 24px;
+    color: #1B1D1F;
+    margin-bottom: 32px;
+    margin-top: 8px;
+}
+.goose-fact-item-description{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #1B1D1F;
+}
+/*third page */
+.form-section{
+    background: linear-gradient(270deg, #A5DEFF 0%, #FFFFFF 100%);
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.form-container{
+    background: #FFFFFF;
+    border-radius: 40px;
+    padding: 32px 60px 60px 60px;
+    width: 573px;
+    margin: auto;
+    text-align: center;
+    box-sizing: border-box;
+}
+.form-title{
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 24px;
+    color: #1B1D1F;
+    margin-top: 32px;
+    margin-bottom: 12px;
+}
+.form-description{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #1B1D1F;
+    margin-bottom: 24px;
+}
+.form-field{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 24px;
+}
+.form-field-email{
+    margin-bottom: 48px;
+}
+.form-field-label{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #1B1D1F;
+    margin-bottom: 8px;
+}
+.form-field-input{
+    width: 453px;
+    height: 60px;
+    background: #FFFFFF;
+    border: 1px solid #005BBB;
+    border-radius: 8px;
+    padding-left: 8px;
+    padding-right: 8px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #1B1D1F;
+}
+.form-button{
+    background: #FF6B0A;
+    border-radius: 8px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    border: none;
+    outline: none;
+    padding: 12px 24px;
+    cursor: pointer;
+}
+/* gus animation */
+.gus-anim {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    margin-bottom: auto;
+    margin-top: auto;
+    width: 100%;
+    z-index: 2;
+    pointer-events: none;
+}
